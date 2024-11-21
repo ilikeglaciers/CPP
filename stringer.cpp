@@ -27,8 +27,14 @@ int main()
     cout<<p[p.length()-1];
     //This code can be used to print the last character of a string
 
-    cout<<x.at(0);
+    cout<<x.at(0)+"\n";
     //returns the character at the given index
 
+    cout<<"This is a sentence with an escape character \"";
+    // \' results in '
+    // \" results in "
+    // \\ results in \
+
+        
     return 0;
 }
